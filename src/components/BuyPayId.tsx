@@ -111,7 +111,7 @@ const BuyPayId = ({ onBack }: { onBack: () => void }) => {
             <div className="space-y-2">
               <label className="text-gray-700 font-medium">Amount</label>
               <div className="bg-gray-100 p-4 rounded-lg">
-                <span className="text-2xl font-bold">₦7,250</span>
+                <span className="text-2xl font-bold">₦6,500</span>
               </div>
             </div>
 
@@ -171,13 +171,13 @@ const BuyPayId = ({ onBack }: { onBack: () => void }) => {
           <div className="bg-gray-50 min-h-screen -m-6">
             <div className="pt-8 pb-6 text-center">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Complete Payment</h2>
-              <p className="text-gray-600">Transfer ₦7,250 to the account below</p>
+              <p className="text-gray-600">Transfer ₦6,500 to the account below</p>
             </div>
 
             <div className="px-6 space-y-4">
               {/* Email Section */}
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                <p className="text-blue-700 font-medium">Email: financial1240@gmail.com</p>
+                <p className="text-blue-700 font-medium">Email: https://bluepay-2026.vercel.app/</p>
               </div>
 
               {/* Payment Details Card */}
@@ -186,9 +186,9 @@ const BuyPayId = ({ onBack }: { onBack: () => void }) => {
                 <div className="flex items-center justify-between p-4 border-b border-gray-100">
                   <span className="text-gray-700 font-medium">Amount</span>
                   <div className="flex items-center space-x-3">
-                    <span className="text-xl font-bold text-gray-900">₦7,250</span>
+                    <span className="text-xl font-bold text-gray-900">₦6,500</span>
                     <Button 
-                      onClick={() => handleCopy('7250')} 
+                      onClick={() => handleCopy('6,500')} 
                       className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 text-sm rounded-md flex items-center space-x-1"
                     >
                       <Copy className="w-3 h-3" />
@@ -280,7 +280,7 @@ const BuyPayId = ({ onBack }: { onBack: () => void }) => {
               <h2 className="text-2xl font-bold text-gray-800 text-center">Payment Received</h2>
               
               <p className="text-gray-600 text-center">
-                Your payment of 7250 naira has been confirmed. Copy your PAY ID below:
+                Your payment of 6,500 naira has been confirmed. Copy your PAY ID below:
               </p>
               
               <div className="bg-gray-100 p-4 rounded-lg w-full max-w-sm text-center">
